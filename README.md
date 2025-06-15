@@ -2,8 +2,6 @@
     <h1><b>🏆 GOAL TRACKER</b></h1>
 </div>
 
-## GOAL TRACKER
-
 <p align="left">Sample web app for connecting to your metamask and list ETH data by user address using react. Completed with the ff:</p>
 <b><p>Frontend:</p></b>
 <ul>
