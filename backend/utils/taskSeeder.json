@@ -1,0 +1,25 @@
+{
+    "tasks": [
+        {
+            "description": "Read 12 books",
+            "target": 12,
+            "progress": 12,
+            "range_color": "#23d18b",
+            "percentage" : 100
+        },
+        {
+            "description": "Exercise 3 times a week",
+            "target": 12,
+            "progress": 10,
+            "range_color": "#e94f4f",
+            "percentage" : 83
+        },
+        {
+            "description": "Learn a new language",
+            "target": 30,
+            "progress": 0,
+            "range_color": "#e9d54f",
+            "percentage" : 0
+        }
+    ]
+}
