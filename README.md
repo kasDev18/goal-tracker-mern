@@ -1,7 +1,5 @@
-<!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://th.bing.com/th/id/R.f81a6f373c244b1f70f4b7402b5ab372?rik=rbXh4ieLuKt%2bmA&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fReact_logo_logotype_emblem.png&ehk=QhGOkKcUKCU7FBQgHOajOiJqJBACUTD2Ni6LsfqzCEA%3d&risl=&pid=ImgRaw&r=0" width="400"></a></p>
- -->
-<div align="center" className="flex text-3xl font-black text-center leading-tight font-sans">
-    <div className="text-6xl mb-5">🏆</div> &nbsp; GOAL TRACKER
+<div align="center">
+    <h1><b>🏆 GOAL TRACKER</b></h1>
 </div>
 
 ## GOAL TRACKER
