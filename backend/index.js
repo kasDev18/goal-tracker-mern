@@ -10,7 +10,7 @@ const { PORT, CLIENT_PORT } = process.env;
 
 const SERVER = PORT || 5000;
 const connectDb = require("./config/db.connect");
-// const taskSeeder = require('./utils/seeders/task');
+// const taskSeeder = require('./utils/seeders/task'); /* seed tasks */
 
 connectDb();
 
@@ -21,18 +21,6 @@ const corsOption = {
 
 app.use(cors(corsOption));
 app.use(express.json());
-
-// let goals = [];
-
-// app.get('/api/goals', (req, res) => {
-//   res.json(goals);
-// });
-
-// app.post('/api/goals', (req, res) => {
-//   const goal = { id: Date.now(), ...req.body };
-//   goals.push(goal);
-//   res.status(201).json(goal);
-// });
 
 app.use('/api', goalRoutes);
 
